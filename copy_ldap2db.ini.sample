@@ -1,0 +1,10 @@
+[DB]
+DSN=dbi:Pg:dbname=otrs;host=localhost
+USERNAME=syncldap
+PASSWORD=XXX
+
+[LDAP]
+HOSTNAME=ldap.company.com
+BIND_DN=cn=admin,dc=company,dc=com
+PASSWORD=XXX
+BASE=dc=company,dc=com
